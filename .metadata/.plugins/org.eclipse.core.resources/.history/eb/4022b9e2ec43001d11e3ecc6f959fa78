@@ -1,0 +1,26 @@
+class Car {
+
+	int i = 20;
+
+	void steeringWheel() {
+		System.out.println("inside steering Wheel of Car..."+i);
+	}
+
+
+	public class Overriding { 
+
+	}
+	public static void main(String[] args) {
+
+		Car a = new Car();
+		System.out.println(a);
+
+	}
+
+
+}
+
+
+
+
+

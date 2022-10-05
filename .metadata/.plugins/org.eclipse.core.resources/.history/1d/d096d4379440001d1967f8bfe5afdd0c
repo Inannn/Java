@@ -1,0 +1,14 @@
+package java_exercise;
+
+public class ArraysOfPrimitives {
+
+	public static void main(String[] args) {
+
+		int[] nos = { 1, 6, 2, 8, 3, 9, 15, 0 };
+		 for(int i=0; i<size; i++){
+	         myArray[i] = s.nextInt();
+	         sum = sum + myArray[i];
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.qa.display_menu;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		byte eligibleAge;
+		eligibleAge = 20;
+
+		System.out.println("eligible age: + eligibleAge");
+	}
+
+}

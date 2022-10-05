@@ -1,0 +1,17 @@
+package com.qa.display_menu;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		byte eligibleAge;
+		eligibleAge = 20;
+		
+		byte maleMinAge, femaleMinAge;
+		maleMinAge = 25;
+		femaleMinAge = 22;
+
+		System.out.println("Age is : " + age +" , Eligible Age : " + eligibleAge);
+		System.out.println("Male Minimum Age is : " maleMinAge + " and Female Min Age : " + femaleMinAge);
+	}
+
+}

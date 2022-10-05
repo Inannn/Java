@@ -1,0 +1,4 @@
+class Phone {
+	int i =20;
+	
+}

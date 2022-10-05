@@ -1,0 +1,14 @@
+package com.qa.java.strings;
+
+public class StringEmails {
+
+	static int validEmails(String[] emails) {
+        String regEx = "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$";
+        int count = 0;
+        for(String email : emails) {
+            if(email.matches(regEx))
+                count++;
+        }    
+        return count;
+    }
+}

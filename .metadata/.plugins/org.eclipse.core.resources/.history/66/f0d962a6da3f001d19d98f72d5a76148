@@ -1,0 +1,18 @@
+package com.qa.java.oop;
+
+public class CallByValue {
+
+	static int sum(int no1, int no2) {
+		return no1 + no2
+	}
+
+	public static void main(String[] args) {
+		// call sum method
+		int no1 = 100;
+		int no2 = 200;
+
+		int sum = sum(no1, no2);
+		System.out.println(sum);
+
+	}
+}

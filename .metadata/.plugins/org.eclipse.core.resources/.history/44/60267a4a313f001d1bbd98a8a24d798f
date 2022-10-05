@@ -1,0 +1,19 @@
+package com.qa.java.oop;
+
+public class Employee {
+
+   public Employee(int i, String string, String string2, double d, byte b, char c) {
+		// TODO Auto-generated constructor stub
+	}
+	//State ( data )
+	int id;
+	String name;
+	String department;
+	double salary;
+	byte age;
+	char gender;
+	//Each employee object will have its own state
+	
+	
+
+}

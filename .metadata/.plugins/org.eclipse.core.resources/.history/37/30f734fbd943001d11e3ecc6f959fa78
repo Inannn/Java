@@ -1,0 +1,38 @@
+class Car {
+
+	void steeringWheel() {
+		System.out.println("inside steering Wheel of Car...");
+ 	}
+ }
+ 
+ class Polo extends Car {
+ 
+ 	void abs() {
+ 		System.out.println("inside abs of Polo..");
+ 	}
+ }
+ 
+ class Benz extends Car {
+ 
+ 	void climateControl() {
+ 		System.out.println("inside climateControl of Benz..");
+ 	}
+ }
+ 
+ public class Inheritance {
+ 
+ 	public static void main(String[] args) {
+ 
+ 		Polo polo = new Polo();
+ 
+ 		polo.steeringWheel();
+ 		polo.abs();
+ 
+ 		Benz benz = new Benz();
+ 		benz.steeringWheel();
+ 		benz.climateControl();
+ 
+ 	}
+ }
+
+ 

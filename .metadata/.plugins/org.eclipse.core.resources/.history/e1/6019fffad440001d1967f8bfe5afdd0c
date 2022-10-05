@@ -1,0 +1,21 @@
+package com.qa.java.strings;
+
+public class StringLength {
+
+	public static void main(String[] args) {
+
+		String str1 = new String();
+		System.out.println(str1);
+		String str2 = new String("abcd");
+		System.out.println(str2);
+
+		int length = str2.length();
+		System.out.println(length);
+
+		String[] emails = { "abc_gmail.com", "abcd*()@gmail.com", "abcd@gmail.com", "test_123@gmail.com",
+				"1234@#$@gmail.com" };
+		System.out.println(StringEmails.validEmails(emails));
+
+	}
+
+}

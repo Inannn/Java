@@ -1,0 +1,17 @@
+package com.qa.java.strings;
+
+public class StringEmails {
+
+	public static void main(String[] args) {
+		String Emails = new String("abc_gmail.com", "abcd*()@gmail.com", "abcd@gmail.com","test_123@gmail.com", "1234@#$@gmail.com" );
+		System.out.println(Emails);
+		
+		
+		char[] chs = str2.toCharArray();
+		for(char ch : chs) {
+			System.out.println(ch);
+		
+
+	}
+
+}

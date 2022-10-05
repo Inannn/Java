@@ -1,0 +1,39 @@
+class Car {
+
+	int i = 20;
+
+	void steeringWheel() {
+		System.out.println("inside steering Wheel of Car..."+i);
+	}
+}
+
+class Society {
+
+	int fund;
+	String name;
+	String secretaryName;
+class Polo extends Car {
+
+	int j = 10;
+
+	void abs() {
+		System.out.println("inside abs of Polo.."+i);
+		System.out.println(j);//You can use variables of parent class anywhere in the child class...
+	}
+}
+
+public class Inheritance {
+	
+
+	public static void main(String[] args) {
+
+		Polo polo = new Polo();	
+	polo.steeringWheel();
+		polo.abs();
+		
+		Benz benz = new Benz();
+		benz.steeringWheel();
+		benz.climateControl();
+	}
+}
+}
