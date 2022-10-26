@@ -1,8 +1,0 @@
-class Car {
-
-	int i = 20;
-
-	void steeringWheel() {
-		System.out.println("inside steering Wheel of Car..."+i);
-	}
-}

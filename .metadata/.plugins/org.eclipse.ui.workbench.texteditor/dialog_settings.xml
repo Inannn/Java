@@ -6,8 +6,13 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=" "/>
+		<item key="selection" value="Regist"/>
 		<list key="findhistory">
+			<item value="regist"/>
+			<item value="Home"/>
+			<item value="homepage"/>
+			<item value="tomcat"/>
+			<item value="dependencies"/>
 			<item value="//"/>
 			<item value="package com.qa.java;"/>
 		</list>
